@@ -1,0 +1,68 @@
+83,58,64,4,79,66,89,15,49,75,1,76,49,98,1,16,23,99,90,48,32,81,8,52,96,97,4,97,78,83,91,18,18,56,27,10,27,37,75,30,34,90,20,33,7,46,38,65,14,91,27,94,19,63,48,69,82,73,78,12,35,60,22,44,34,81,60,94,51,89,65,88,62,54,70,93,9,49,47,91,15,42,67,56,21,52,46,47,11,23 + true
+
+const randomNumber = getRandomNumber();
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+const randomNumber = getRandomNumber();
+true - true
+console.log(getRandomString());
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const capitalizeString = str => str.toUpperCase();
+orange
+
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+68,90,39,25,91,96,61,1,90,82,90,57,43,22,34,1,41,37,21,78,33,74,54,7,75,59,5,87,44,32,88,47,96,55,49,97,83,25,93,4,33,46,68,83,94,14,34,18,31 / 23,23,27,98,51,51,20,23,96,65,29,97,63,25,59,52,64,47,3
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+let array = getRandomArray(); array.forEach(item => console.log(item));
+8,24,80,89,64 * true
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const squareRoot = num => Math.sqrt(num);
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+banana
+
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+apple
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+66,94,84,15,90,13,31,97,89,85,40,35,26,13,23,40,19,44,0,57,92,71,53,5,21,56,55,30,45,74,93,65,9,24,43,86,98,12,39,30,70,75,47,30,82,62,42,56,66,71,89,99,96,81 + 18
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+banana * true
+const reverseString = str => str.split("").reverse().join("");
+const greet = name => `Hello, ${name}!`;
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+class MyClass { constructor() { this.property = getRandomString(); } }
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+grape / false
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+const squareRoot = num => Math.sqrt(num);
+
+const formatDate = date => new Date(date).toLocaleDateString();
